@@ -28,22 +28,13 @@
                 "componentSpecs": [
                     {
                         "metadata": {
-                            "creationTimestamp": "2020-11-21T10:39:09Z"
+                            "creationTimestamp": "2020-12-01T10:44:08Z"
                         },
                         "spec": {
                             "containers": [
                                 {
                                     "name": "iris-container",
-                                    "resources": {
-                                        "limits": {
-                                            "cpu": "1",
-                                            "memory": "1Gi"
-                                        },
-                                        "requests": {
-                                            "cpu": "1",
-                                            "memory": "1Gi"
-                                        }
-                                    }
+                                    "resources": {}
                                 }
                             ]
                         }
